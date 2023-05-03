@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+    text-align: center;
+    font-size: 55px;
+    border-radius: 100px;
+   
+  }
+  
+  body{
+    background-color: rgb(255, 218, 224);
+    text-align: center;
+    font-size: 30px;
+    color:rgb(226, 154, 166);
+  }
+
+  .container {
+    margin-top: 40px;
+   
+  }
+
+  .lasagna, .chocolate, .guac, .meatb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-right: 30%;
+  
+  }
+
+  .lasagna{
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+  }
+
+  .meatb{
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+  }
+
+  img{
+   border-radius: 100px;
+  }
+  
